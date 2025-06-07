@@ -3,6 +3,7 @@
   "license": "UNLICENSED",
   "version": "1.0.0",
   "author": "aaimtt",
+  "packageManager": "pnpm@10.5.2",
   "description": "Starter template repository for bootstrapping Typescript projects.",
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
