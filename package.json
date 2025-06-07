@@ -5,9 +5,13 @@
   "author": "aaimtt",
   "packageManager": "pnpm@10.5.2",
   "description": "Starter template repository for bootstrapping Typescript projects.",
+  "scripts": {
+    "format": "prettier --write ."
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
-    "husky": "^9.1.7"
+    "husky": "^9.1.7",
+    "prettier": "^3.5.3"
   }
 }
