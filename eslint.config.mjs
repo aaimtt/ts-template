@@ -13,16 +13,16 @@ export default typescriptEslint.config(
   {
     plugins: {
       'no-only-tests': eslintPluginNoOnlyTests,
-      prettier: eslintPluginPrettier,
       'simple-import-sort': eslintPluginSimpleImportSort,
       import: eslintPluginImport,
+      prettier: eslintPluginPrettier,
     },
     rules: {
       '@typescript-eslint/no-unused-vars': 'error',
       'no-only-tests/no-only-tests': 'error',
       'prettier/prettier': 'error',
-      'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
+      'simple-import-sort/imports': 'error',
     },
   },
   eslintConfigPrettier,
