@@ -1,5 +1,6 @@
 {
   "name": "ts-template",
+  "license": "UNLICENSED",
   "version": "1.0.0",
   "author": "aaimtt",
   "description": "Starter template repository for bootstrapping Typescript projects.",
